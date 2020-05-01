@@ -1,0 +1,295 @@
+body
+{
+margin:0px;
+padding:0px;	
+  
+}
+.main
+{
+width:100%;
+height:auto;	
+}
+/* Project Designed by - Sanyam Jain Ph-9802066127  Email-ersanyamjain@gmail.com*/
+.header-cover
+{
+width:100%;
+height:450px;
+background-image:url(../images/banner.jpg);
+background-size:cover;
+  
+}
+.header
+{
+width:100%;
+height:90px;
+background:#FFF;
+opacity:0.6;
+border-bottom:2.5px #91caff ridge ;
+  
+}
+.logo
+{
+  float:left;
+  width:30%;
+  height:100%;	
+}
+.logo img
+{
+margin-left:50%;
+height:100%;	
+}
+.navigation
+{ margin-top:20px;
+  width:70%;
+float:left;	
+}
+
+.navigation ul
+{
+float:left;
+list-style:none;
+}
+.navigation ul li
+{ 
+font-family:"Arial Narrow"; font-weight:bold;
+font-size:18px;
+float:left;
+margin-left:20px;
+
+}
+.navigation ul li a
+{
+  transition:0.4s; padding:10px; text-decoration:none; border-radius:6px;  color:#1D62B6;
+}
+
+.navigation ul li a:hover
+{
+  //background:#0A49AD;
+  background:#1D62B6;
+  color:#FFF;
+  border-radius:3px; font-weight:bold;
+}
+.slider
+{
+width:100%; height:350px;	
+float:left;
+}
+.slider-nav1
+{ width:2%;
+margin-left:18%; float:left;margin-top:150px;
+}
+.slider-nav1 img
+{ 
+width:20px;
+}
+.slider-nav2
+{ width:2%;
+ float:left;margin-top:58px; margin-left:2%;
+}
+.slider-nav2 img
+{ 
+width:20px;
+}
+.slider-image
+{ float:left;
+	width:19%; height:100%;
+		
+}
+.slider-image img
+{
+padding-top:5%;
+	height:95%;
+}
+.slider-hd-text
+{
+margin-right:20%;
+}
+.slider-text
+{
+ width:30%; float:left;
+ margin-left:8%;
+color:#03C;
+text-align:justify;
+}
+/* Project Designed by - Sanyam Jain Ph-9802066127  Email-ersanyamjain@gmail.com*/
+.slider-text img
+{ 
+opacity:0.7; background:#FFF;  border:1px #c3c3c3 ridge; 
+height:70px; width:200px; 
+ float:right; margin-right:28%; border-radius:5px;
+}
+.icon-menu
+{
+width:100%;
+height:90px;
+padding-top:20px;
+background:#fff;
+border-top:2px #b0b0b0 ridge; 
+border-bottom:2px #b0b0b0 ridge; 
+font-size:28px; color:#5c5c5c;
+}
+.iconmenu1
+{
+width:16%;
+height:100%;
+float:left;
+font-size:18px;
+font-weight:bold;
+padding-left:30px;
+font-family: 'Segoe UI Light';
+}
+.iconmenu1 a
+{
+text-decoration:none; color:#494949;
+}
+.iconmenu2
+{
+width:13.5%;
+height:100%;
+float:left;
+}
+.content
+{
+height:500px;
+width:100%;
+background:#ececec;
+}
+.content-area
+{
+padding-left:17%;
+width:43%;height:90%; float:left;color:#5c5c5c; text-align:justify; padding-right:2.5%; border-right:1px #fff solid;
+}
+.content-area h2
+{
+color:#5c5c5c;
+}
+.content-area img
+{
+border:3px #d4d3d3 ridge;
+}
+.sidebar
+{ border-left:1px #d4d4d4 solid;
+padding-left:2.5%;
+width:25%; height:90%; float:left;font-family: 'Segoe UI Light';
+}
+.sidebar input
+{
+color:#c3c3c3; margin-top:10px;
+border-radius:3px;
+height:30px;
+width:240px;
+border:1px #a9a9a9 solid;
+padding-left:15px;
+}
+/* Project Designed by - Sanyam Jain Ph-9802066127  Email-ersanyamjain@gmail.com*/
+.sidebar h3
+{
+font-family: 'Segoe UI Light';
+}
+.sidebar a
+{
+color:#0385d4; text-decoration:none; 
+font-family: 'Segoe UI Light'; font-weight:bold;
+}
+.loginpanel
+{
+height:200px;
+width:280px;
+border:1.5px #aeaeae solid;
+border-radius:5px;
+padding-left:20px;
+background:#f9f9f9;
+}
+.loginpanel input[type=checkbox]:checked:before {
+  //content: '\f147';
+ //margin: -3px 0 0 -4px;
+  color: #1e8cbe;
+}
+.footer
+{
+width:100%;
+}
+.footer-heading
+{
+width:100%;
+background:#173465;
+height:41px;
+}
+.fh1
+{
+width:16%; float:left; height:100%;padding-left:1.25%; 
+}
+.fh2
+{
+padding:0.7%; color:#fff;  width:15%; float:left; font-family: 'Segoe UI Light';
+}
+.fh3
+{
+padding:0.7%; color:#fff;   float:left; font-family: 'Segoe UI Light';
+}
+.footer-content
+{ float:left;
+width:100%;
+height:230px; margin-top:0px;
+}
+.fc1
+{
+width:16%; float:left;  padding:0.72%;
+height:100%;
+background-image:url(../images/footerbanner.png);
+background-size:cover;
+}
+.fc2
+{
+ color:#fff;  width:15%; float:left; font-family: 'Segoe UI Light';
+  padding:0.7%;
+ height:100%;
+background-image:url(../images/footerbanner.png);
+background-size:cover;
+}
+.fc2 input,textarea
+{
+color:#a9a9a9; margin-top:10px;
+}
+.fc2 a
+{text-decoration:none;
+color:#033e74; font-size:13px; font-weight:bold;
+}
+.fc2 img
+{
+opacity:0.3; width:80%; height:100px;
+}
+
+.fc2 ul
+{
+padding-left:0px;
+list-style:none; 
+}
+.fc2 ul li
+{
+margin-top:7px; 
+}
+.fc2 ul li a
+{
+text-decoration:none; font-family:Arial; color:#1562a9;  
+}
+.fc2 input,textarea
+{
+	border-radius:4px;	
+}
+/* Project Designed by - Sanyam Jain Ph-9802066127 Email-ersanyamjain@gmail.com*/
+.fc3
+{
+float:left;  padding:0.7%;
+height:100%; width:15.55%;
+background-image:url(../images/footerbanner.png);
+background-size:cover;
+}
+.footer-copyright
+{
+background:#7dc6f2; width:100%; height:50px; float:left; padding-top:10px; color:#fff;
+}
+.footer-copyright a
+{
+text-decoration:none; margin-left:5px;color:#1562a9; 
+}
